@@ -8,7 +8,7 @@ WORKDIR /opt/frontend
 
 RUN npm install --force
 
-#RUN ng build
+RUN npm run build --prod
 
 RUN npm install -g @angular/cli
 
